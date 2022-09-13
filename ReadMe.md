@@ -77,10 +77,17 @@ Request body with following token's value:
 
 ### Check role
 `POST /user/check_user_with_role`
+With key "Token" and it's value in request header
 
 Request Body with text :
 ```{1:admin}```
 Response is the token value
+
+
+### Get all roles for a user
+`GET /user/roles`
+With key "Token" and it's value in request header
+Response is all roles of user
 
 
 # Test
