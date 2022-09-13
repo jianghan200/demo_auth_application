@@ -49,15 +49,16 @@ POST Body with text, self defined object serilization :
 ### Delete role
 REST DELETE method, with body of role object
 `DELETE /role`
-
 POST Body with text, self defined object serilization :
-
 ```{1:admin}```
 
 
 ### Add role to user
 REST PATCH method, with key "Token" and it's value in request header
 `PATCH /user/add_role`
+
+Request body with text like following:
+```{1:admin}```
 
 
 ### Authenticate 
